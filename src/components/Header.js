@@ -8,7 +8,7 @@ const Header = () => {
         <Link to="/">영단어고급</Link>
       </h1>
       <div className="menu">
-        <a href="#x" className='link'>단어 추가</a>
+        <Link to="/create_word" className='link'>단어 추가</Link>
         <a href="#x" className='link'>데이 추가</a>
       </div>
     </div>
