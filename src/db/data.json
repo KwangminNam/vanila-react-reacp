@@ -1,51 +1,60 @@
 {
-  "days":[
-    {"id":1,"day":1},
-    {"id":2, "day":2},
-    {"id":3, "day":3}
-  ],
-  "words":[
+  "days": [
     {
       "id": 1,
-      "day": 1,
-      "eng": "book",
-      "kor": "책",
-      "isDone":true
+      "day": 1
     },
     {
       "id": 2,
-      "day": 1,
-      "eng": "apple",
-      "kor": "사과",
-      "isDone":true
+      "day": 2
     },
     {
       "id": 3,
+      "day": 3
+    }
+  ],
+  "words": [
+    {
+      "id": 1,
+      "day": 1,
+      "eng": "dog",
+      "kor": "개",
+      "isDone": false
+    },
+    {
+      "id": 2,
       "day": 2,
-      "eng": "monkey",
-      "kor": "원숭이",
-      "isDone":true
+      "eng": "run",
+      "kor": "뛰기",
+      "isDone": true
+    },
+    {
+      "id": 2,
+      "day": 2,
+      "eng": "run",
+      "kor": "뛰기",
+      "isDone": false
     },
     {
       "id": 4,
-      "day": 3,
-      "eng": "run",
-      "kor": "뛰기",
-      "isDone":true
+      "day": 2,
+      "eng": "walk",
+      "kor": "걷기",
+      "isDone": true
     },
     {
       "id": 5,
       "day": 3,
       "eng": "shoes",
       "kor": "신발",
-      "isDone":false
+      "isDone": false
     },
     {
       "id": 6,
       "day": 3,
       "eng": "closet",
       "kor": "옷장",
-      "isDone":false
+      "isDone": false
     }
   ]
 }
