@@ -9,7 +9,7 @@ const Header = () => {
       </h1>
       <div className="menu">
         <Link to="/create_word" className='link'>단어 추가</Link>
-        <a href="#x" className='link'>데이 추가</a>
+        <Link to="/create_day" className='link'>데이 추가</Link>
       </div>
     </div>
   );

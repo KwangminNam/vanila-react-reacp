@@ -1,6 +1,18 @@
 import React, { useState } from 'react';
 
-const Word = ({item:w}) => {
+interface Iprops{
+  item:Iword;
+}
+
+export interface Iword{
+  id: number;
+  day: number;
+  eng: string;
+  kor: string;
+  isDone: boolean;
+}
+
+const Word = ({ item:w }: Iprops ) => {
   const [item,setWords] = useState(w);
   const [isShow , setIsShow ] = useState(false);
   const [isDone, setIsDone ] = useState(item.isDone);
@@ -34,7 +46,10 @@ const Word = ({item:w}) => {
         method: 'DELETE',
       }).then(res=>{
         if(res.ok){
-          setWords({id:0})
+          setWords({
+            ...item,  
+            id:0
+          })
         }
       })
     }
